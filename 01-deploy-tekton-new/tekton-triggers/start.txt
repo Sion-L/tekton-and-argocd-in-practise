@@ -1,0 +1,4 @@
+sed -i 's#gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors:v0.23.1@sha256:5c224eb39a11f35326bbf1300fd432f919286cff22759fb08ed6eba55751ee4d#langhub/tekton-triggers-interceptors:v0.23.1#g' ./*.yaml
+sed -i 's#gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller:v0.23.1@sha256:77d99a0aeb67095a0d9601061d0c4312f94f260eceff57d66cec2203f1d55c4f#langhub/tekton-triggers-controller:v0.23.1#g' ./*.yaml
+sed -i 's#gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.23.1@sha256:50570682abbb865be44b358c816d336e52d7d57e241206d1dde8bc4ddd332c2d#langhub/tekton-triggers-eventlistenersink:v0.23.1#g' ./*.yaml
+sed -i 's#gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.23.1@sha256:51da8ff33222234b1cca9d417a9a5d3112fb5da26babcae05dfaebfd28b63139#langhub/tekton-triggers-webhook:v0.23.1#g' ./*.yaml
